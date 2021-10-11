@@ -34,6 +34,18 @@ nav {
     height: 250px;
 }
 
+/* about */
+
+#about {
+    height: 250px;
+    background-color: crimson;
+}
+
+#about .color {
+    background-color: cornflowerblue;
+    height: 250px;
+    border: solid 1px black;
+}
 
 
 
