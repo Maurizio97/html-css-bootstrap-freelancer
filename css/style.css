@@ -140,24 +140,44 @@ footer {
     background-color: teal;
 }
 
-#location {
-    height: 70px;
-}
-
-#social {
-    height: 70px;
-}
-
-#about-freelancer {
-    height: 70px;
-}
-
 #info .color {
     background-color: brown;
     border: solid 1px black; 
 }
 
+#info {
+    color: white;
+    text-align: center;
+    background-color: #3a546d;
+}
 
+#info div {
+    margin: 30px 0;
+}
+
+/* social icon */
+#social a {
+    display: inline-block;
+    border: solid 1px white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px; 
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+#social i {
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: center;
+    font-size: 20px;
+}
+
+#about-freelancer span a {
+    color: #1cb99a;
+    text-decoration: none;
+}
 
 
 
