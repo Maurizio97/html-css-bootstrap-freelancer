@@ -1,8 +1,6 @@
 
+/* header */
 
-header {
-    height: 250px;
-}
 
 nav {
     height: 70px;
@@ -10,34 +8,68 @@ nav {
     background-color: teal;
 }
 
-#title-page {
-    height: 180px;
-    /* debug */
-    background-color: turquoise;
-}
 
 /* jumbotron */
 #jumbotron {
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    background-color: #1abc9c;
+}
+
+#jumbotron img {
+    width: 150px;
+}
+
+#jumbotron H2 {
+    font-weight: bold;
+    margin: 10px auto;
+}
+
+ .star {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     max-width: 180px;
+     margin: 10px auto;
+ }
+.line {
+    width: 100%;
+    max-width: 70px;
+    height: 3px;
+    background-color: white;
+}
+
+#jumbotron span {
+    font-size: .8em;
+}
+
+/* /jumbotron */
+
+/* header */
+
+
+/* portfolio */
+#portfolio {
     margin-bottom: 70px;
 }
-#title-jmb {
-    height: 70px;
+
+#title-portfolio{
     text-align: center;
 }
 
-#jumbotron .color {
+#portfolio .color {
     background-color: blueviolet;
     border: solid black 1px;
 }
 
-.items-jumbotron {
+.items-portfolio {
     height: 250px;
 }
 
 /* about */
 
 #about {
-    height: 250px;
     background-color: crimson;
 }
 
@@ -47,5 +79,38 @@ nav {
     border: solid 1px black;
 }
 
+/* contatti */
 
+#contacts {
+    height: 300px;
+    background-color: blue;
+}
 
+#contacts .color {
+    height: 300px;
+    background-color: skyblue;
+}
+
+/* footer */
+
+footer {
+    background-color: teal;
+}
+
+#location {
+    height: 70px;
+}
+
+#social {
+    height: 70px;
+}
+
+#about-freelancer {
+    height: 70px;
+}
+
+#info .color {
+    background-color: brown;
+    border: solid 1px black;
+    
+}
